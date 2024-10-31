@@ -1,0 +1,26 @@
+{
+  "name": "escrow",
+  "version": "1.0.0",
+  "description": "Decentralized Escrow Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx buidler test",
+    "start": "npm run compile && parcel app/index.html",
+    "compile": "npx buidler compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.2.0",
+    "@nomiclabs/buidler-truffle5": "^1.2.0",
+    "@nomiclabs/buidler-web3": "^1.2.0",
+    "web3": "^1.2.6"
+  },
+  "browserslist": [
+    "> 5%"
+  ],
+  "dependencies": {
+    "ethers": "^4.0.46",
+    "parcel": "^2.12.0"
+  }
+}
